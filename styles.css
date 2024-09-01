@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,100&display=swap');
+
+:root{
+    --primary-color: #37617a;
+    --primary-color-dark: #0d1a20;
+    --secondary-color: #fb923c;
+    --white: #ffffff;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(to right bottom, #5e4ba2f7, #afaeb5);
+}
+
+.container {
+    min-height: 100vh;
+    max-width: 1300px;
+    margin: auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--white);
+    cursor: pointer;
+}
+
+.links{
+    display: flex;  /* arranges icons in horizontal manner */
+    align-items: center;
+    gap: 2rem;    /* gives the gap between icons */
+}
+
+.links div {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--white);  /* makes colour of icons white */
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.links div:hover{
+    color: var(--secondary-color);
+}
+
+.links div span{
+    font-size: 1.2rem;
+}
+
+.links .shopping_cart {
+    height: 50px;
+    width: 50px;
+    display: grid;
+    place-content: center; /*brings the bag logo to center */ 
+    border-radius: 100%; /* makes the bag's background circular in shape from square */
+    font-size: 1.2rem;
+    color: var(--primary-color-dark);
+    background-color: var(--white);
+}
