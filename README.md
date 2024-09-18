@@ -17,6 +17,6 @@ Easy Navigation: Intuitive layout to help users find products effortlessly. <br>
 HTML5: For semantic structure and markup. <br>
 CSS3: For styling, including Flexbox and Grid for layout. <br>
 
-
+<br><br> <br>
 
 <img width="706" alt="image" src="https://github.com/user-attachments/assets/6694721b-6da4-42cc-9cbf-c87cee558ef8">
